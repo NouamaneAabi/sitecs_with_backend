@@ -1,0 +1,182 @@
+{
+  "hero": {
+    "badge": "Partenaire Industriel de Référence en Afrique",
+    "title": "Votre Partenaire Global en Construction, Industrie & Énergie",
+    "subtitle": "Solutions intégrées de la conception à la livraison — pour un avenir industriel durable et ambitieux.",
+    "cta_contact": "Contactez-nous",
+    "cta_projects": "Nos Réalisations",
+    "stats": {
+      "years": "Années d'exp.",
+      "projects": "Projets livrés",
+      "experts": "Experts",
+      "countries": "Pays couverts"
+    },
+    "badges": {
+      "construction": "Construction BTP",
+      "renewable": "Énergies Renouvelables",
+      "wind": "Parcs Éoliens"
+    },
+    "scroll": "Défiler"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "activities": "Activités",
+    "projects": "Projets",
+    "contact": "Contact",
+    "request_quote": "Demande de Devis"
+  },
+  "brand": {
+    "tagline": "Industrial Group"
+  },
+  "projects": {
+    "section_tag": "Notre portfolio",
+    "title": "Nos Réalisations",
+    "subtitle": "Des projets ambitieux menés à bien grâce à notre savoir-faire et notre engagement envers l'excellence.",
+    "cta_all_projects": "Tous les projets",
+    "action_view_more": "Voir Plus",
+    "cards": {
+      "1": {
+        "cat": "Construction",
+        "title": "Projets de Construction",
+        "location": "Malabo, Guinée Équatoriale",
+        "desc": "Réalisation de bâtiments résidentiels et commerciaux avec matériaux durables et techniques modernes."
+      },
+      "2": {
+        "cat": "Industrie",
+        "title": "Installations Industrielles",
+        "location": "Bata, Guinée Équatoriale",
+        "desc": "Déploiement d'équipements industriels lourds, systèmes de contrôle et maintenance d'usines."
+      },
+      "3": {
+        "cat": "Énergie",
+        "title": "Énergies Renouvelables",
+        "location": "Afrique Centrale",
+        "desc": "Installation de panneaux solaires, éoliennes et systèmes hybrides pour une autonomie durable."
+      }
+    }
+  },
+  "activities": {
+    "section_tag": "Secteurs d'intervention",
+    "title": "Nos Activités",
+    "subtitle": "SITECS couvre un large spectre de secteurs industriels pour répondre à tous vos besoins en Afrique et au-delà.",
+    "cta_view_all": "Voir toutes les activités",
+    "action_view_more": "En savoir plus",
+    "cards": {
+      "1": {
+        "title": "Expertise Multi-sectorielle",
+        "sub": "Bâtiments & Travaux Publics",
+        "desc": "Plus de 15 ans couvrant la construction, l'énergie, l'industrie et la logistique à travers 8 pays africains.",
+        "points": ["Construction & BTP", "Énergies renouvelables", "Installations industrielles"]
+      },
+      "2": {
+        "title": "Équipe Qualifiée",
+        "sub": "Production & Maintenance",
+        "desc": "Une équipe pluridisciplinaire d'ingénieurs et techniciens certifiés, dévoués à l'excellence opérationnelle.",
+        "points": ["Ingénieurs certifiés", "Formation continue", "Standards internationaux"]
+      },
+      "3": {
+        "title": "Solutions Sur Mesure",
+        "sub": "Innovation & IT",
+        "desc": "Chaque projet est unique. Nous concevons des solutions adaptées à vos contraintes techniques et budgétaires.",
+        "points": ["Étude personnalisée", "Flexibilité totale", "Innovation continue"]
+      },
+      "4": {
+        "title": "Activités Énergie",
+        "sub": "Énergies renouvelables",
+        "desc": "Centrales solaires photovoltaïques, parcs éoliens et systèmes hybrides pour une autonomie énergétique.",
+        "points": ["Solaire", "Éolien", "Hybride"]
+      },
+      "5": {
+        "title": "Réhabilitation",
+        "sub": "Rénovation & Modernisation",
+        "desc": "Réhabilitation complète de bâtiments existants, mise aux normes énergétiques et modernisation d'infrastructures.",
+        "points": ["Rénovation", "Normes", "Patrimoine"]
+      }
+    }
+  },
+  "footer": {
+    "description": "Société Industrielle de Transport, d'Énergie, de Construction et de Services. Spécialisée dans les projets industriels et énergétiques en Afrique.",
+    "quick_links": "Liens Rapides",
+    "services_title": "Nos Services",
+    "contact": "Contact",
+    "services": {
+      "1": "Construction BTP",
+      "2": "Activités Industrielles",
+      "3": "Solutions Tech",
+      "4": "Énergies Renouvelables",
+      "5": "Réhabilitation"
+    },
+    "copyright": "Tous droits réservés.",
+    "tagline": "Conçu avec excellence pour l'industrie africaine."
+  },
+  "contact": {
+    "section_tag": "Nous Joindre",
+    "title": "Contactez-nous",
+    "subtitle": "Notre équipe est prête à étudier votre projet et vous proposer la meilleure solution.",
+    "info_title": "Informations de Contact",
+    "info_description": "Société Industrielle de Transport, d'Énergie, de Construction et de Services. Spécialisée dans les projets industriels, logistiques et énergétiques en Afrique.",
+    "follow_us": "Suivez-nous",
+    "map_location": "Malabo, Guinée Équatoriale",
+    "details": {
+      "phone": "Téléphone",
+      "email": "Email",
+      "address": "Adresse"
+    },
+    "validation": {
+      "name_required": "Le nom est requis.",
+      "email_required": "L'email est requis.",
+      "email_invalid": "Email invalide.",
+      "message_required": "Le message est requis."
+    },
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "header": "Envoyez-nous un message",
+      "subheader": "Nous vous répondons sous 24 heures ouvrées.",
+      "placeholder_name": "Jean Dupont",
+      "placeholder_email": "jean@exemple.com",
+      "placeholder_phone": "+240 222 000 000",
+      "placeholder_message": "Décrivez votre projet ou posez votre question…",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès !",
+      "success_detail": "Notre équipe vous contactera dans les 24 heures.",
+      "error": "Une erreur s'est produite.",
+      "error_detail": "Veuillez réessayer ou nous contacter directement."
+    }
+  },
+  "whyChooseUs": {
+    "section_tag": "Notre valeur ajoutée",
+    "title": "Pourquoi Nous Choisir ?",
+    "subtitle": "SITECS allie expertise locale et standards internationaux pour des projets d'excellence.",
+    "cta_label": "Démarrons ensemble",
+    "cta_title": "Prêt à démarrer votre projet ?",
+    "cta_subtitle": "Notre équipe est disponible pour étudier votre besoin et proposer une offre sur mesure.",
+    "cta_button": "Demander un devis gratuit",
+    "cards": {
+      "1": {
+        "title": "Expertise Multi-sectorielle",
+        "desc": "Plus de 15 ans couvrant la construction, l'énergie, l'industrie et la logistique à travers 8 pays africains.",
+        "points": ["Construction & BTP", "Énergies renouvelables", "Installations industrielles"]
+      },
+      "2": {
+        "title": "Équipe Qualifiée",
+        "desc": "Une équipe pluridisciplinaire d'ingénieurs et techniciens certifiés, dévoués à l'excellence opérationnelle.",
+        "points": ["Ingénieurs certifiés", "Formation continue", "Standards internationaux"]
+      },
+      "3": {
+        "title": "Solutions Sur Mesure",
+        "desc": "Chaque projet est unique. Nous concevons des solutions adaptées à vos contraintes techniques et budgétaires.",
+        "points": ["Étude personnalisée", "Flexibilité totale", "Innovation continue"]
+      },
+      "4": {
+        "title": "Respect des Délais",
+        "desc": "Nos processus rigoureux garantissent la livraison de vos projets dans les temps et budgets convenus.",
+        "points": ["Planification rigoureuse", "Suivi en temps réel", "Reporting transparent"]
+      }
+    }
+  }
+}
