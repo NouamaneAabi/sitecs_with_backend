@@ -2,48 +2,44 @@ import React from 'react'
 import PageHero from '../components/PageHero'
 import { MdConstruction, MdFactory, MdComputer, MdSolarPower, MdBuildCircle } from 'react-icons/md'
 import { FiCheck } from 'react-icons/fi'
+import { useTranslation } from 'react-i18next'
 import useReveal from '../hooks/useReveal'
 
-const activities = [
-  {
-    icon: MdConstruction, color: 'bg-blue-600', title: 'Construction',
-    sub: 'Bâtiments & Travaux Publics',
-    desc: 'SITECS réalise des projets de construction résidentiels, commerciaux et d\'infrastructures publiques avec des matériaux durables et des techniques modernes.',
-    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
-    points: ['Bâtiments résidentiels & commerciaux', 'Ouvrages d\'art & ponts', 'Routes & infrastructures', 'Génie civil & fondations'],
-  },
-  {
-    icon: MdFactory, color: 'bg-slate-700', title: 'Activités Industrielles',
-    sub: 'Production & Maintenance',
-    desc: 'Installations industrielles clés en main, maintenance préventive et corrective, optimisation des processus de production et formation des équipes.',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
-    points: ['Installations clés en main', 'Maintenance préventive', 'Optimisation de production', 'Formation opérateurs'],
-  },
-  {
-    icon: MdComputer, color: 'bg-indigo-700', title: 'Solutions Tech',
-    sub: 'Innovation & IT',
-    desc: 'Intégration de systèmes SCADA, automatisation industrielle, solutions numériques et infrastructure IT sur mesure pour moderniser vos opérations.',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80',
-    points: ['Systèmes SCADA & supervision', 'Automatisation industrielle', 'Infrastructure réseau & IT', 'Solutions numériques métier'],
-  },
-  {
-    icon: MdSolarPower, color: 'bg-amber-600', title: 'Activités Énergie',
-    sub: 'Énergies renouvelables',
-    desc: 'Conception et déploiement de centrales solaires photovoltaïques, parcs éoliens et systèmes hybrides pour une autonomie énergétique durable.',
-    image: 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=800&q=80',
-    points: ['Centrales solaires PV', 'Parcs éoliens', 'Systèmes hybrides & stockage', 'Audit & conseil énergétique'],
-  },
-  {
-    icon: MdBuildCircle, color: 'bg-teal-700', title: 'Réhabilitation',
-    sub: 'Rénovation & Modernisation',
-    desc: 'Réhabilitation complète de bâtiments existants, mise aux normes énergétiques, et modernisation des infrastructures industrielles vieillissantes.',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
-    points: ['Rénovation complète', 'Mise aux normes énergétiques', 'Modernisation d\'usines', 'Restauration du patrimoine'],
-  },
-]
+const activitiesStyle = {
+  construction: { icon: MdConstruction, color: 'bg-blue-600', image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80' },
+  factory: { icon: MdFactory, color: 'bg-slate-700', image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80' },
+  computer: { icon: MdComputer, color: 'bg-indigo-700', image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80' },
+  solar: { icon: MdSolarPower, color: 'bg-amber-600', image: 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=800&q=80' },
+  solutions: { icon: MdBuildCircle, color: 'bg-teal-700', image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80' }
+}
 
 export default function ActivitiesPage() {
+  const { t } = useTranslation()
   const ref = useReveal()
+
+  const cards = t('activities.cards', { returnObjects: true }) || {}
+  const order = ['factory', 'construction', 'solar', 'computer', 'solutions']
+  const cardKeys = [...order.filter(k => cards[k]), ...Object.keys(cards).filter(k => !order.includes(k))]
+
+  const translatedActivities = cardKeys.map(key => {
+    const data = cards[key] || {}
+    const style = activitiesStyle[key] || { icon: MdComputer, color: 'bg-slate-700', image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80' }
+
+    const points = (data.points && data.points.length > 0)
+      ? data.points
+      : (data.sections ? data.sections.flatMap(section => section.points || []) : [])
+
+    return {
+      key,
+      icon: style.icon,
+      color: style.color,
+      title: data.title || '',
+      sub: data.sub || '',
+      desc: data.conclusion || data.desc || '',
+      points,
+      image: style.image
+    }
+  })
 
   return (
     <>
@@ -56,8 +52,8 @@ export default function ActivitiesPage() {
 
       <section ref={ref} className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 space-y-24">
-          {activities.map(({ icon: Icon, color, title, sub, desc, image, points }, i) => (
-            <div key={title}
+          {translatedActivities.map(({ key, icon: Icon, color, title, sub, desc, image, points }, i) => (
+            <div key={key || title || i}
               className={`grid grid-cols-1 lg:grid-cols-2 gap-14 items-center ${i%2!==0 ? 'lg:[&>*:first-child]:order-2' : ''}`}>
 
               {/* Image side */}
@@ -78,17 +74,19 @@ export default function ActivitiesPage() {
                 <span className="section-tag">{sub}</span>
                 <h2 className="section-title">{title}</h2>
                 <p className="text-slate-500 leading-relaxed mb-7">{desc}</p>
-                <ul className="space-y-3">
-                  {points.map(pt => (
-                    <li key={pt} className="flex items-center gap-3 text-slate-700 font-medium text-sm">
-                      <span className="w-5 h-5 rounded-full bg-amber-500/15 border border-amber-500/30
-                                        flex items-center justify-center flex-shrink-0">
-                        <FiCheck className="text-amber-600 text-xs" />
-                      </span>
-                      {pt}
-                    </li>
-                  ))}
-                </ul>
+                {points.length > 0 && (
+                  <ul className="space-y-3">
+                    {points.map(pt => (
+                      <li key={pt} className="flex items-center gap-3 text-slate-700 font-medium text-sm">
+                        <span className="w-5 h-5 rounded-full bg-amber-500/15 border border-amber-500/30 flex items-center justify-center flex-shrink-0">
+                          <FiCheck className="text-amber-600 text-xs" />
+                        </span>
+                        {pt}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+
               </div>
             </div>
           ))}

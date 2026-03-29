@@ -1,0 +1,280 @@
+{
+  "hero": {
+    "badge": "Partenaire Industriel de Référence en Afrique",
+    "title": "Votre Partenaire Global en Construction, Industrie & Énergie",
+    "subtitle": "Solutions intégrées de la conception à la livraison — pour un avenir industriel durable et ambitieux.",
+    "cta_contact": "Contactez-nous",
+    "cta_projects": "Nos Réalisations",
+    "stats": {
+      "years": "Années d'exp.",
+      "projects": "Projets livrés",
+      "experts": "Experts",
+      "countries": "Pays couverts"
+    },
+    "badges": {
+      "construction": "Construction BTP",
+      "renewable": "Énergies Renouvelables",
+      "wind": "Parcs Éoliens"
+    },
+    "scroll": "Défiler"
+  },
+
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "activities": "Activités",
+    "projects": "Projets",
+    "contact": "Contact",
+    "request_quote": "Demande de Devis"
+  },
+
+  "brand": {
+    "tagline": "Industrial Group"
+  },
+
+  "projects": {
+    "section_tag": "Notre portfolio",
+    "title": "Nos Réalisations",
+    "subtitle": "Des projets ambitieux menés à bien grâce à notre savoir-faire et notre engagement envers l'excellence.",
+    "cta_all_projects": "Tous les projets",
+    "action_view_more": "Voir Plus",
+    "cards": {
+      "1": {
+        "cat": "Construction",
+        "title": "Projets de Construction",
+        "location": "Malabo, Guinée Équatoriale",
+        "desc": "Réalisation de bâtiments résidentiels et commerciaux avec matériaux durables et techniques modernes."
+      },
+      "2": {
+        "cat": "Industrie",
+        "title": "Installations Industrielles",
+        "location": "Bata, Guinée Équatoriale",
+        "desc": "Déploiement d'équipements industriels lourds, systèmes de contrôle et maintenance d'usines."
+      },
+      "3": {
+        "cat": "Énergie",
+        "title": "Énergies Renouvelables",
+        "location": "Afrique Centrale",
+        "desc": "Installation de panneaux solaires, éoliennes et systèmes hybrides pour une autonomie durable."
+      }
+    }
+  },
+
+  "activities": {
+  "section_tag": "Secteurs d'intervention",
+  "title": "Nos Activités",
+  "subtitle": "SITECS intervient dans plusieurs secteurs industriels pour accompagner les projets énergétiques et industriels en Afrique.",
+  "cta_view_all": "Voir toutes les activités",
+  "action_view_more": "En savoir plus",
+
+  "cards": {
+
+    "factory": {
+      "title": "Activités Industrielles",
+      "sub": "Nous proposons des services industriels spécialisés :",
+      "points": [
+        "Soudure industrielle (structures lourdes, pipelines)",
+        "Fabrication de plateformes métalliques",
+        "Peinture industrielle anticorrosion",
+        "Travaux sur tubes pétroliers (oil & gas)"
+      ],
+      "conclusion": "Nos équipes interviennent sur des projets complexes avec des standards internationaux."
+    },
+
+    "construction": {
+  "title": "Transport Multimodal",
+  "sub": "SITECS assure des solutions logistiques complètes :",
+
+  "sections": [
+    {
+      "title": "Transport terrestre",
+      "points": [
+        "Camions lourds, convois exceptionnels",
+        "Transport de matériel industriel"
+      ]
+    },
+    {
+      "title": "Transport maritime & naval",
+      "points": [
+        "Affrètement de navires",
+        "Affrètement de barges",
+        "Logistique offshore"
+      ]
+    },
+    {
+      "title": "Location d’équipements",
+      "points": [
+        "Engins de transport",
+        "Matériel logistique spécialisé"
+      ]
+    }
+  ],
+
+  "conclusion": "Nous garantissons la rapidité, la sécurité et l’optimisation des coûts."
+},
+
+   "solar": {
+  "title": "Activités énergie",
+  "sub": "Nous accompagnons les projets énergétiques :",
+
+  "sections": [
+    {
+      "points": [
+        "Installation d’unités énergétiques",
+        "Services para-pétroliers",
+        "Maintenance et exploitation"
+      ]
+    },
+    {
+      "title": "énergie verte",
+      "points": [
+        "Solutions solaires photovoltaïques",
+        "Hybridation énergétique",
+        "Optimisation énérgitique"
+        
+      ]
+    }
+  ],
+
+  "conclusion": "Une approche durable et innovante adaptée aux besoins africains."
+},
+
+    "computer": {
+      "title": "Construction & Génie Civil",
+      "sub": "Réalisation de projets clés en main :",
+      "points": [
+        "Conctruction de routes",
+        "Bâtiments industriels et résidentiels",
+        "Immeubles et édifices publics",
+        "Structures métalliques et hangars"
+      ],
+      "conclusion": "De la conception à la livraison finale."
+    },
+    "solutions": {
+  "title": "Solutions & Services",
+  "sub": "Des solutions techniques avancées :",
+  "points": [
+    "Technologies industrielles",
+    "Réhabilitation d'infrastructures",
+    "Modernisation d'équipements",
+    "Ingénierie & conseil"
+  ],
+  "conclusion": "Nous améliorons la performance et la durabilité de vos installations."
+}
+
+  }
+},
+
+  "footer": {
+    "description": "Société Industrielle de Transport, d'Énergie, de Construction et de Services. Spécialisée dans les projets industriels et énergétiques en Afrique.",
+    "quick_links": "Liens Rapides",
+    "services_title": "Nos Services",
+    "contact": "Contact",
+    "services": {
+      "1": "Activités Industrielles",
+      "2": "Transport Terrestre & Maritime",
+      "3": "Énergie",
+      "4": "Solutions Tech"
+    },
+    "copyright": "Tous droits réservés.",
+    "tagline": "Conçu avec excellence pour l'industrie africaine."
+  },
+
+  "contact": {
+    "section_tag": "Nous Joindre",
+    "title": "Contactez-nous",
+    "subtitle": "Notre équipe est prête à étudier votre projet et vous proposer la meilleure solution.",
+    "info_title": "Informations de Contact",
+    "info_description": "Société Industrielle de Transport, d'Énergie, de Construction et de Services. Spécialisée dans les projets industriels, logistiques et énergétiques en Afrique.",
+    "follow_us": "Suivez-nous",
+    "map_location": "Malabo, Guinée Équatoriale",
+
+    "phones": [
+      "+240 222 31 82 82",
+      "+212 601 28 19 50"
+    ],
+
+    "email": "contact@sitecs.com",
+
+    "details": {
+      "phone": "Téléphone",
+      "email": "Email",
+      "address": "Adresse"
+    },
+
+    "validation": {
+      "name_required": "Le nom est requis.",
+      "email_required": "L'email est requis.",
+      "email_invalid": "Email invalide.",
+      "message_required": "Le message est requis."
+    },
+
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "header": "Envoyez-nous un message",
+      "subheader": "Nous vous répondons sous 24 heures ouvrées.",
+      "placeholder_name": "Jean Dupont",
+      "placeholder_email": "jean@exemple.com",
+      "placeholder_phone": "+240 222 31 82 82",
+      "placeholder_message": "Décrivez votre projet ou posez votre question…",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès !",
+      "success_detail": "Notre équipe vous contactera dans les 24 heures.",
+      "error": "Une erreur s'est produite.",
+      "error_detail": "Veuillez réessayer ou nous contacter directement."
+    }
+  },
+
+  "whyChooseUs": {
+    "section_tag": "Notre valeur ajoutée",
+    "title": "Pourquoi Nous Choisir ?",
+    "subtitle": "SITECS allie expertise locale et standards internationaux pour des projets d'excellence.",
+    "cta_label": "Démarrons ensemble",
+    "cta_title": "Prêt à démarrer votre projet ?",
+    "cta_subtitle": "Notre équipe est disponible pour étudier votre besoin et proposer une offre sur mesure.",
+    "cta_button": "Demander un devis gratuit",
+
+    "cards": {
+      "1": {
+        "title": "Expertise Multi-sectorielle",
+        "desc": "Plus de 15 ans couvrant la construction, l'énergie et l'industrie.",
+        "points": [
+          "Construction & BTP",
+          "Énergie",
+          "Installations industrielles"
+        ]
+      },
+      "2": {
+        "title": "Équipe Qualifiée",
+        "desc": "Une équipe pluridisciplinaire d'ingénieurs et techniciens certifiés.",
+        "points": [
+          "Ingénieurs certifiés",
+          "Formation continue",
+          "Standards internationaux"
+        ]
+      },
+      "3": {
+        "title": "Solutions Sur Mesure",
+        "desc": "Chaque projet est conçu selon vos besoins spécifiques.",
+        "points": [
+          "Étude personnalisée",
+          "Flexibilité totale",
+          "Innovation continue"
+        ]
+      },
+      "4": {
+        "title": "Respect des Délais",
+        "desc": "Nos processus garantissent la livraison dans les délais.",
+        "points": [
+          "Planification rigoureuse",
+          "Suivi en temps réel",
+          "Reporting transparent"
+        ]
+      }
+    }
+  }
+}

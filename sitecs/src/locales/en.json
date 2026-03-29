@@ -1,0 +1,237 @@
+{
+  "hero": {
+    "badge": "Leading Industrial Partner in Africa",
+    "title": "Your Global Partner in Construction, Industry & Energy",
+    "subtitle": "Integrated solutions from design to delivery — for a sustainable and ambitious industrial future.",
+    "cta_contact": "Contact us",
+    "cta_projects": "Our Achievements",
+    "stats": {
+      "years": "Years of exp.",
+      "projects": "Projects delivered",
+      "experts": "Experts",
+      "countries": "Countries covered"
+    },
+    "badges": {
+      "construction": "Construction BTP",
+      "renewable": "Renewable Energies",
+      "wind": "Wind Farms"
+    },
+    "scroll": "Scroll"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "activities": "Activities",
+    "projects": "Projects",
+    "contact": "Contact",
+    "request_quote": "Request Quote"
+  },
+  "brand": {
+    "tagline": "Industrial Group"
+  },
+  "projects": {
+    "section_tag": "Our Portfolio",
+    "title": "Our Achievements",
+    "subtitle": "Ambitious projects delivered through our expertise and commitment to excellence.",
+    "cta_all_projects": "All projects",
+    "action_view_more": "See More",
+    "cards": {
+      "1": {
+        "cat": "Construction",
+        "title": "Construction Projects",
+        "location": "Malabo, Equatorial Guinea",
+        "desc": "Delivery of residential and commercial buildings using sustainable materials and modern techniques."
+      },
+      "2": {
+        "cat": "Industry",
+        "title": "Industrial Facilities",
+        "location": "Bata, Equatorial Guinea",
+        "desc": "Deployment of heavy industrial equipment, control systems and factory maintenance."
+      },
+      "3": {
+        "cat": "Energy",
+        "title": "Renewable Energy",
+        "location": "Central Africa",
+        "desc": "Installation of solar panels, wind turbines and hybrid systems for lasting energy independence."
+      }
+    }
+  },
+  "activities": {
+    "section_tag": "Areas of Expertise",
+    "title": "Our Activities",
+    "subtitle": "SITECS covers a broad spectrum of industrial sectors to meet your needs in Africa and beyond.",
+    "cta_view_all": "View all activities",
+    "action_view_more": "See more",
+    "cards": {
+      "factory": {
+        "title": "Industrial Activities",
+        "sub": "We offer specialized industrial services:",
+        "points": [
+          "Industrial welding (heavy structures, pipelines)",
+          "Fabrication of metal platforms",
+          "Anti-corrosion industrial painting",
+          "Work on oil & gas pipes"
+        ],
+        "conclusion": "Our team intervenes on complex projects with international standards."
+      },
+      "construction": {
+        "title": "Multimodal Transport",
+        "sub": "SITECS provides complete logistics solutions:",
+        "sections": [
+          {
+            "title": "Land transport",
+            "points": [
+              "Transport of industrial equipment",
+              "Heavy equipment transport",
+              "Industrial logistics"
+            ]
+          },
+          {
+            "title": "Maritime & naval transport",
+            "points": [
+              "Chartering of ships",
+              "Chartering of barges",
+              "Specialized maritime transport"
+            ]
+          },
+          {
+            "title": "Equipment rental",
+            "points": [
+              "Transport equipment",
+              "Specialized logistics equipment"
+            ]
+          }
+        ],
+        "conclusion": "We guarantee speed, safety and cost optimization."
+      },
+      "solar": {
+        "title": "Energy Activities",
+        "sub": "We support energy projects:",
+        "sections": [
+          {
+            "points": [
+              "Installation of energy units",
+              "Para-petroleum services",
+              "Maintenance and operation"
+            ]
+          },
+          {
+            "title": "green energy",
+            "points": [
+              "Photovoltaic solar solutions",
+              "Energy hybridization",
+              "Energy optimization"
+            ]
+          }
+        ],
+        "conclusion": "A sustainable and innovative approach adapted to African needs."
+      },
+      "computer": {
+        "title": "Construction & Civil Engineering",
+        "sub": "Turnkey project realization:",
+        "points": [
+          "Road construction",
+          "Industrial and residential buildings",
+          "Public buildings and edifices",
+          "Metal structures and hangars"
+        ],
+        "conclusion": "From design to final delivery."
+      },
+      "solutions": {
+        "title": "Solutions & Services",
+        "sub": "Advanced technical solutions:",
+        "points": [
+          "Industrial technologies",
+          "Infrastructure rehabilitation",
+          "Equipment modernization",
+          "Engineering & consulting"
+        ],
+        "conclusion": "We improve the performance and sustainability of your installations."
+      }
+    }
+  },
+  "footer": {
+    "description": "Industrial company for Transport, Energy, Construction and Services. Specialized in industrial and energy projects in Africa.",
+    "quick_links": "Quick Links",
+    "services_title": "Our Services",
+    "contact": "Contact",
+    "services": {
+      "1": "Construction BTP",
+      "2": "Industrial Activities",
+      "3": "Tech Solutions",
+      "4": "Renewable Energies",
+      "5": "Rehabilitation"
+    },
+    "copyright": "All rights reserved.",
+    "tagline": "Built with excellence for African industry."
+  },
+  "contact": {
+    "section_tag": "Get in Touch",
+    "title": "Contact Us",
+    "subtitle": "Our team is ready to study your project and offer the best solution.",
+    "info_title": "Contact Information",
+    "info_description": "Industrial company for Transport, Energy, Construction and Services. Specializing in industrial, logistics and energy projects in Africa.",
+    "follow_us": "Follow us",
+    "map_location": "Malabo, Equatorial Guinea",
+    "details": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    },
+    "validation": {
+      "name_required": "Name is required.",
+      "email_required": "Email is required.",
+      "email_invalid": "Invalid email.",
+      "message_required": "Message is required."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "header": "Send us a message",
+      "subheader": "We will reply within 24 business hours.",
+      "placeholder_name": "John Doe",
+      "placeholder_email": "john@example.com",
+      "placeholder_phone": "+240 222 000 000",
+      "placeholder_message": "Describe your project or ask your question…",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "success_detail": "Our team will contact you within 24 hours.",
+      "error": "An error occurred.",
+      "error_detail": "Please try again or contact us directly."
+    }
+  },
+  "whyChooseUs": {
+    "section_tag": "Our Value Proposition",
+    "title": "Why Choose Us?",
+    "subtitle": "SITECS combines local expertise and international standards for outstanding projects.",
+    "cta_label": "Let’s Start Together",
+    "cta_title": "Ready to start your project?",
+    "cta_subtitle": "Our team is available to study your need and propose a tailored offer.",
+    "cta_button": "Request a free quote",
+    "cards": {
+      "1": {
+        "title": "Multi-sector Expertise",
+        "desc": "Over 15 years covering construction, energy, industry and logistics across 8 African countries.",
+        "points": ["Construction & Civil Works", "Renewable Energy", "Industrial Installations"]
+      },
+      "2": {
+        "title": "Qualified Team",
+        "desc": "A multidisciplinary team of certified engineers and technicians devoted to operational excellence.",
+        "points": ["Certified Engineers", "Ongoing Training", "International Standards"]
+      },
+      "3": {
+        "title": "Custom Solutions",
+        "desc": "Each project is unique. We design solutions adapted to your technical and budget constraints.",
+        "points": ["Customized Study", "Full Flexibility", "Continuous Innovation"]
+      },
+      "4": {
+        "title": "On-time Delivery",
+        "desc": "Our rigorous processes ensure delivery on agreed time and budget.",
+        "points": ["Rigorous Planning", "Real-time Monitoring", "Transparent Reporting"]
+      }
+    }
+  }
+}
