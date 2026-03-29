@@ -8,7 +8,7 @@ import useReveal from '../hooks/useReveal'
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000'
 
 const contactDetails = [
-  { icon: FiPhone,  labelKey: 'contact.details.phone', value: '+240 222 000 000', href: 'tel:+240222000000' },
+  { icon: FiPhone,  labelKey: 'contact.details.phone', value: ' +240 222 31 82 82 /  +212 601 28 19 50', href: 'tel:+240222318282' },
   { icon: FiMail,   labelKey: 'contact.details.email', value: 'contact@sitecs.com', href: 'mailto:contact@sitecs.com' },
   { icon: FiMapPin, labelKey: 'contact.details.address', value: 'Malabo – Guinée Équatoriale', href: '#' },
 ]

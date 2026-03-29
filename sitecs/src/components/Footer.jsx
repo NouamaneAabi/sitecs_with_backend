@@ -113,7 +113,7 @@ export default function Footer() {
             <h4 className="text-white font-black text-xs uppercase tracking-[.18em] mb-5">{t('footer.contact')}</h4>
             <ul className="space-y-4">
               {[
-                { Icon: FiPhone,  text: '+240 222 000 000',       href: 'tel:+240222000000' },
+                { Icon: FiPhone,  text: '+240 222 31 82 82 /  +212 601 28 19 50', href: 'tel:+240222318282' },
                 { Icon: FiMail,   text: 'contact@sitecs.com',     href: 'mailto:contact@sitecs.com' },
                 { Icon: FiMapPin, text: 'Malabo – Guinée Équatoriale', href: '#' },
               ].map(({ Icon, text, href }) => (
